@@ -1,0 +1,13 @@
+$default-blue: #01458E;
+$default-gray: #5E626B;
+
+*{text-decoration: none !important;&:hover{text-decoration: none !important;}}
+
+.navbar{background: $default-blue; & a{color: #FFF !important; transition: color 0.2s ease; &:hover{color: #56a7ff !important; & .navbar-toggler{color: #FFF !important;}}}}
+.header-text{color: $default-blue !important;}
+h3{color: $default-blue;}
+.bt-1{border-bottom: 1px solid $default-blue;}
+a.list-group-item.active.active-item{background: $default-blue !important; border-color: $default-blue;}
+.carousel-indicators .active{background-color: $default-blue !important;}
+.carousel-indicators li{background-color: #56a7ff !important;}
+.item-menu-dashboard:hover{color: $default-blue !important;}
